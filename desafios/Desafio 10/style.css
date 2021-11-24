@@ -1,0 +1,145 @@
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf') format('OpenType font');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+}
+
+body{
+   background-color: #84e1ad;
+   font-family: 'android', Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+header{
+    padding: 10px;
+    height: 250px;
+    background-image: linear-gradient(to bottom, #3f8a5f, #0d2c1b);
+    background-attachment: fixed;
+    color: white;
+    
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.329);
+}
+
+header >h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header >p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.navbar{
+    padding-top: 120px;
+}
+
+.navbar > p{
+    text-align: center;
+}
+
+.menu_List {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.listLi {
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    display: block;
+}
+
+
+ a:hover{
+    background-color: #29A167;
+    color: #016228;
+    border-radius: 10px;
+}
+
+main{
+    padding: 30px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-left: 200px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+
+main > h1 {
+    color: #246342;
+}
+
+
+h2{
+    padding-left: 10px;
+    color: #3b773e;
+    background-image: linear-gradient(to right, #C8ECD8, white );
+}
+
+.enfase{
+    font-weight: bolder;
+    color:#2d9e33;
+}
+
+.div_video{
+    height: 550px;
+    background-color: #1A5C38;
+    padding: 30px 0px 0px 50px ;
+   
+    
+}
+
+.video{
+    height: 505px;
+    width: 900px;
+}
+
+.extra{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+    margin:10px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.329);
+
+}
+
+.extra > h1 {
+    background-color:#2FA866 ;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+footer{
+    padding: 1px;
+    font-weight: bolder;
+    background-color: #1A5C38;
+    color: white;
+    
+}
+
+footer > p{
+    text-align: center;
+}
+
+li{
+    text-decoration: underline;
+}

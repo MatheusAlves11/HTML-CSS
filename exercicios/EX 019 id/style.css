@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+    -Não posso ter vários "id="principal"
+    -Posso ter vários "class = "básico"
+
+*/
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+*/
+body{
+    background-color: #81ACF5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1C2636;
+}
+
+h1#principal{
+    text-align: center;
+    background-color:#3E5275;
+    color: white;
+    border-radius: 10px;
+}
+
+h2{
+    color: #5189e9;
+}
+
+.basico{
+    color: rgb(91, 160, 51);
+    font-style: bold;
+}
+
+.intermediario{
+    color: rgb(160, 153, 51);
+}
+
+.avancado{
+    color: rgb(160, 51, 51);
+}
+
+.dastaque{
+    background-color: rgb(177, 172, 102);
+}
