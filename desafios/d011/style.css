@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+
+:root{
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-tamanho: 55px;
+}
+
+body{
+    background-image: url("imagens/background001.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    font-size:var(--fonte-tamanho);
+    font-family: var(--fonte-padrao);
+    padding-left: 20px;
+    padding-top: 50px;
+    line-height: 100px;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+
+div{
+    padding:30px;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family:var(--fonte-padrao);
+    max-height: 200px;
+    min-height: 10%;
+
+}
+
+header>h1{
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+header>p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+div.padrao {
+    background-color: white;
+    padding: 10px;
+    height: fit-content;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404) ;
+}
+
+div.img1 {
+    background-image: url("imagens/background001.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: max-content;
+    background-position: right center;
+
+}
+
+div.img1>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: fit-content;
+    padding: 10px;
+    width: max-content;
+}
+
+div.img2 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("imagens/background002.jpg");
+    padding: 10px;
+    height: 100vh;
+}
+
+div.img2>p{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    background-size: 100px 100px;
+   /* width: max-content;
+    height: fit-content;*/
+    padding: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    height: fit-content;
+}
+
+footer>p{
+    line-height: normal;
+    margin-top: 0px;
+    font-size: 18px;
+    padding-top: 7px;
+}
+
+footer>p>a{
+    color: white;
+    font-family: var(--fonte-padrao);
+}
