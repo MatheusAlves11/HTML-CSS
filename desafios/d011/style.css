@@ -7,7 +7,7 @@
 
 :root{
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-tamanho: 55px;
+    --fonte-tamanho: 5vw;
 }
 
 body{
@@ -21,7 +21,7 @@ p{
     font-family: var(--fonte-padrao);
     padding-left: 20px;
     padding-top: 50px;
-    line-height: 100px;
+    line-height: 2em;
     margin-top:40px;
     margin-bottom: 50px;
 }
@@ -42,8 +42,9 @@ header{
 }
 
 header>h1{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bolder;
+    font-variant: small-caps;
     margin: 0px;
 }
 
@@ -61,6 +62,8 @@ a:hover{
     text-decoration: underline;
 
 }
+
+
 
 div.padrao {
     background-color: white;
